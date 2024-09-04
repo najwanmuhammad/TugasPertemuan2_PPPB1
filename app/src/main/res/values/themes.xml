@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Base.Theme.TugasPertemuan2" parent="Theme.Material3.DayNight.NoActionBar">-->
+    <style name="Theme.TugasPertemuan2" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/almostBlack</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+</resources>
